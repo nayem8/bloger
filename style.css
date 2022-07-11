@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+}
+
+.first {
+    background-image: url(images/banner-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.middle {
+    padding: 100px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    background-color: chartreuse;
+    padding: 2%;
+}
+
+.second {
+    display: flex;
+    padding: 15%;
+}
+
+.box {
+    box-shadow: 10px 10px 20px grey;
+    padding: 10px;
+    margin-left: 5%;
+
+}
