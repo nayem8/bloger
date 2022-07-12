@@ -37,9 +37,10 @@ h1 {
 
 .box {
     box-shadow: 10px 10px 20px grey;
-    padding: 10px;
+    padding: 20px;
     margin-right: 5px;
     width: 50%;
+    text-align: justify;
 }
 
 .footer {
