@@ -7,6 +7,11 @@ h1 {
     color: rgb(255, 0, 0);
 }
 
+h1:hover {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
 .first {
     background-image: url(images/banner-bg.png);
     display: flex;
@@ -22,17 +27,21 @@ h1 {
 .button {
     color: white;
     text-decoration: none;
-    background-color: chartreuse;
+    background-color: rgb(94, 0, 0);
     padding: 2%;
 }
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
 
 .second {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-
-
-
 }
 
 .box {
